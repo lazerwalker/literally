@@ -1,14 +1,22 @@
 literally
 =============
 
-Chrome extension that replaces occurrences of the word 'literally' with 'figuratively'.
+A browser plugin that replaces occurrences of the word 'literally' with 'figuratively'.
 That's literally all it does.
-
-[Direct download of crx file](https://github.com/lazerwalker/literally/blob/master/literally.crx?raw=true)
 
 Installation
 ------------
-In Chrome, choose Window > Extensions.  Drag `literally.crx` into the page that appears.
+
+### Chrome
+
+1. Download the [crx file](https://github.com/lazerwalker/literally/blob/master/literally.crx?raw=true).
+2. In Chrome, choose Window > Extensions.  Drag `literally.crx` into the page that appears.
+
+
+### Safari
+
+1. Download the [.safariextz file](https://github.com/lazerwalker/literally/blob/master/literally.safariextz?raw=true).
+2. Double-click on it. Follow Safari's instructions to approve the installation.
 
 Attribution
 -----------
