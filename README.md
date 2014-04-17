@@ -21,7 +21,7 @@ Installation
 ### Firefox
 
 1. Download the [.xpi file](https://github.com/lazerwalker/literally/blob/master/literally.xpi?raw=true).
-2. In Firefox, choose Tools > Add-ons. Click on the wrench icon at the top of the page and select "Install Add-on From File..."
+2. In Firefox, choose Tools > Add-ons. Click on the wrench icon at the top of the tab and select "Install Add-on From File..."
 3. Locate `literally.xpi` and follow Firefox's instructions to approve the installation.
 
 Attribution
