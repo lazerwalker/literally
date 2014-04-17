@@ -18,6 +18,12 @@ Installation
 1. Download the [.safariextz file](https://github.com/lazerwalker/literally/blob/master/literally.safariextz?raw=true).
 2. Double-click on it. Follow Safari's instructions to approve the installation.
 
+### Firefox
+
+1. Download the [.xpi file](https://github.com/lazerwalker/literally/blob/master/literally.xpi?raw=true).
+2. In Firefox, choose Tools > Add-ons. Click on the wrench icon at the top of the page and select "Install Add-on From File..."
+3. Locate `literally.xpi` and follow Firefox's instructions to approve the installation.
+
 Attribution
 -----------
 Approximately 99.99999% of this repository is copy-and-pasted from Steven Frank's
