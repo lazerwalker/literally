@@ -1,0 +1,11 @@
+{
+    "name": "literally",
+    "title": "Literally",
+    "id": "jid1-ehxJ28b33TOfHQ",
+    "description": "Replaces the word 'literally' with 'figuratively'. That's literally all it does.",
+    "author": "Mike Walker",
+    "homepage": "http://lazerwalker.com",
+    "contributors": "Lyndsey Moulds (https://github.com/apophenia/)",
+    "license": "WTFPL",
+    "version": "1.0"
+}
