@@ -1,0 +1,84 @@
+// customize bootstrap variables here:
+@import "variables";
+@import "bootstrap";
+
+#title {
+  background-image:url('../images/chris-traeger.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #DDD;
+  height: 80%;
+  padding-left: 10%;
+  padding-top: 5%;
+  text-shadow: 0 0 3px #111;
+  width: 100%;
+
+  h1 {
+    font-size: 100px;
+  }
+
+  p {
+    font-size: 40px;
+  }
+}
+
+#content {
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+
+  p {
+    font-size: 30px;
+  }
+}
+
+.half {
+  float: left;
+  margin-bottom: 4em;
+  width: 50%;
+
+  &:last-of-type {
+    padding-left: 40px;
+  }
+
+  blockquote {
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 1em;
+  }
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.description {
+  clear: both;
+  margin-bottom: 2em;
+}
+
+.footer {
+  font-size: $font-size-h3;
+  margin-top: 5em;
+}
+
+.buttons {
+  margin: auto;
+  padding-left: 8%;
+
+  a {
+    font-size: 1.5em;
+
+    padding: {
+      top: 15px;
+      bottom: 15px;
+    }
+
+    width: 25%;
+    margin: {
+      left: 2.5%;
+      right: 2.5%;
+    }
+  }
+}
