@@ -7972,3 +7972,56 @@ blockquote {
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
+
+@media (max-width: 800px) {
+  /* line 87, ../sass/styles.scss */
+  #title {
+    height: auto;
+    min-height: 40%;
+  }
+  /* line 91, ../sass/styles.scss */
+  #title h1 {
+    font-size: 30px;
+  }
+  /* line 95, ../sass/styles.scss */
+  #title p {
+    font-size: 18px;
+  }
+
+  /* line 100, ../sass/styles.scss */
+  #content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /* line 103, ../sass/styles.scss */
+  #content p, #content blockquote, #content .footer, #content .buttons a {
+    font-size: 16px;
+  }
+
+  /* line 108, ../sass/styles.scss */
+  .buttons {
+    padding: 0;
+  }
+  /* line 111, ../sass/styles.scss */
+  .buttons a {
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+    width: 80%;
+  }
+
+  /* line 119, ../sass/styles.scss */
+  .half {
+    float: none;
+    width: 100%;
+  }
+  /* line 123, ../sass/styles.scss */
+  .half:last-of-type {
+    padding-left: 0;
+  }
+
+  /* line 128, ../sass/styles.scss */
+  .github {
+    display: none;
+  }
+}

@@ -82,3 +82,50 @@ blockquote {
     }
   }
 }
+
+@media (max-width: 800px) {
+  #title {
+    height: auto;
+    min-height: 40%;
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  #content {
+    margin-left: 10%;
+    margin-right: 10%;
+    p, blockquote, .footer, .buttons a {
+      font-size: 16px;
+    }
+  }
+
+  .buttons {
+    padding: 0;
+
+    a {
+      display: block;
+      margin: auto;
+      margin-top: 2em;
+      width: 80%;
+    }
+  }
+
+  .half {
+    float: none;
+    width: 100%;
+
+    &:last-of-type {
+      padding-left: 0;
+    }
+  }
+
+  .github {
+    display: none;
+  }
+}
