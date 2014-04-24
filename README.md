@@ -30,8 +30,9 @@ Alternatively:
 
 Attribution
 -----------
-Approximately 99.99999% of this repository is copy-and-pasted from Steven Frank's
-classic [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt) extension.
+Most of this repository is copy-and-pasted from Steven Frank's classic
+[cloud-to-butt](https://github.com/panicsteve/cloud-to-butt) extension, with
+added support for DOM modifications after page load. 
 
 Contact
 -----
