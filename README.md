@@ -13,7 +13,7 @@ The plugin may be found on the [Chrome Extension Store](https://chrome.google.co
 
 Alternatively:
 
-1. Download the [.crx file](https://github.com/lazerwalker/literally/blob/master/literally.crx?raw=true).
+1. Download the [.crx file](https://github.com/lazerwalker/literally/blob/master/Literally.crx?raw=true).
 2. In Chrome, choose Window > Extensions.  Drag `literally.crx` into the page that appears.
 
 
