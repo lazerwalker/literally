@@ -1,5 +1,24 @@
 walk(document.body);
 
+if (window.MutationObserver) {
+	var observer = new MutationObserver(function (mutations) {
+		Array.prototype.forEach.call(mutations, function (m) {
+			if (m.type === 'childList') {
+				walk(m.target);
+			} else if (m.target.nodeType === 3) {
+				handleText(m.target);
+			}
+		});
+	});
+
+	observer.observe(document.body, {
+		childList: true,
+		attributes: false,
+		characterData: true,
+		subtree: true
+	});
+}
+
 function walk(node)
 {
 	// The author of cloud-to-butt stole this function from here:
@@ -29,11 +48,15 @@ function walk(node)
 
 function handleText(textNode)
 {
-	var v = textNode.nodeValue;
-	
+	var oldValue = textNode.nodeValue,
+	    v = oldValue;
+
 	v = v.replace(/\bliterally\b/g, "figuratively");
 	v = v.replace(/\bLiterally\b/g, "Figuratively");
 	v = v.replace(/\bLITERALLY\b/g, "FIGURATIVELY");
-
-	textNode.nodeValue = v;
+  
+	// avoid infinite series of DOM changes
+	if (v !== oldValue) {
+		textNode.nodeValue = v;
+	}
 }
